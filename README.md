@@ -6,5 +6,3 @@
 
 [espressif/esp-idf](https://github.com/espressif/esp-idf)
 
-
-# esp
