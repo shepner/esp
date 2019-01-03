@@ -5,11 +5,12 @@ WORKDIR=$HOME/src/esp
 mkdir -p $WORKDIR
 
 
+
 #setup toolchain
 #https://docs.espressif.com/projects/esp-idf/en/stable/get-started/macos-setup.html
 
-# This currently uses python2
-pip install pyserial
+pip install pyserial  # it currently uses python2
+
 
 
 # download and install the current stable ESP32 toolchain for macOS:
@@ -31,8 +32,14 @@ EOM
 
 
 
-# https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html#get-started-get-esp-idf
 # (re)install the ESP32 specific API/libraries
+# https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html#get-started-get-esp-idf
+VERSION="v3.1.2"
+
 rm -Rf $WORKDIR/esp-idf
-git clone -b v3.1.1 --recursive https://github.com/espressif/esp-idf.git $WORKDIR
+
+git clone -b $VERSION --recursive https://github.com/espressif/esp-idf.git esp-idf-$VERSION
+
+ln -s $WORKDIR/esp-idf-$VERSION $WORKDIR/esp-idf
+
 
