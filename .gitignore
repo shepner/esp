@@ -1,5 +1,5 @@
 # skip the libs
-esp-idf/
+esp-idf*
 
 # skip the compiler
 xtensa-esp32-elf/
