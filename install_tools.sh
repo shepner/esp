@@ -34,7 +34,7 @@ EOM
 
 # (re)install the ESP32 specific API/libraries
 # https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html#get-started-get-esp-idf
-VERSION="v3.1.2"
+VERSION="v3.2-beta3"
 
 rm -Rf $WORKDIR/esp-idf
 
