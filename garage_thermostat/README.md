@@ -3,10 +3,8 @@
 This is (or rather will be) the thermostat for the garage
 
 Parts:
-
-...(1) [Adafruit Power Relay FeatherWing](https://www.adafruit.com/product/3191)
-
-...(2) [High Temp Waterproof DS18B20 Digital Temperature Sensor - 3m long](https://www.adafruit.com/product/3846)
+... (1) [Adafruit Power Relay FeatherWing](https://www.adafruit.com/product/3191)
+... (2) [High Temp Waterproof DS18B20 Digital Temperature Sensor - 3m long](https://www.adafruit.com/product/3846)
 
 ...(1) [FeatherWing Tripler Mini Kit - Prototyping Add-on For Feathers](https://www.adafruit.com/product/3417)
 
