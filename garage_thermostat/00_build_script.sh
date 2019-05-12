@@ -7,7 +7,7 @@
 #rm -R ./build
 
 # flash the latest
-#make flash
+make flash
 
 # show the serial output.  'Ctrl+]' to break out
 #make monitor
