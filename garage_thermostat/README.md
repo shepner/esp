@@ -6,7 +6,7 @@ This is (or rather will be) the thermostat for the garage
 The general idea at this point is to use the temperature of the concrete to determine when heat should be called for.  The other temperature probe is for the air.  Perhaps to pervent heating when it gets too warm.  The RTC is to display time and perhaps provide scheduling options.
 
 
-Parts:
+## Parts
 * (1) [Adafruit Power Relay FeatherWing](https://www.adafruit.com/product/3191)
 * (2) [High Temp Waterproof DS18B20 Digital Temperature Sensor - 3m long](https://www.adafruit.com/product/3846)
 * (1) [FeatherWing Tripler Mini Kit - Prototyping Add-on For Feathers](https://www.adafruit.com/product/3417)
@@ -15,7 +15,7 @@ Parts:
 * (1) [Adafruit HUZZAH32 – ESP32 Feather Board](https://www.adafruit.com/product/3405)
 
 
-Notes/Links/etc:
+## Notes/Links/etc
 * [tekdemo/MiniPID](https://github.com/tekdemo/MiniPID)
 * [ESP32 with Multiple DS18B20 Temperature Sensors](https://randomnerdtutorials.com/esp32-with-multiple-ds18b20-temperature-sensors/)
 * [DavidAntliff/esp32-owb](https://github.com/DavidAntliff/esp32-owb)
